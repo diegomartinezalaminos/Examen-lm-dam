@@ -119,9 +119,6 @@ footer {
 /*----------TAMAÑO MOVIL-----------*/
 
 @media screen and (max-width: 520px) {
-    h1{
-        color:red;
-    }
     header {
         background-image: url("imagenes/cabecera2.jpg");
         background-size: cover;
