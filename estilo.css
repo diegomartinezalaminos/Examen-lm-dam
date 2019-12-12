@@ -1,12 +1,19 @@
 /*------------TIPOS DE LETRA---------------------*/
-@import url('fuentes/DroidSans-Bold.ttf');
-@import url('fuentes/DroidSans.ttf');
 
+@font-face {
+    font-family: DroidSans-Bold;
+    src: url(fuentes/DroidSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: DroidSans;
+    src: url(fuentes/DroidSans.ttf);
+}
 
 /*------------ESTILOS BASICOS DEL BODY-----------*/
 body{
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: DroidSans-Bold, DroidSans, Arial, Helvetica, sans-serif;
 }
 
 
